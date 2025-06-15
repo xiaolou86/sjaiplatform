@@ -1,6 +1,5 @@
 from flask_sqlalchemy import SQLAlchemy
-
-db = SQLAlchemy()
+from models import db
 
 class ModelInfo(db.Model):
     __tablename__ = 'model_info'

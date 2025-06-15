@@ -1,6 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
+from models import db
 
-db = SQLAlchemy()
 
 class AlarmInfo(db.Model):
     __tablename__ = 'alarm_info'
